@@ -17,12 +17,12 @@ function init() {
         console.log("META", content.meta);
         let fig = document.createElement("figure");
         let img = document.createElement("img");
-        let fc = document.createElement("figcaption");
+        //let fc = document.createElement("figcaption");
         img.src = content.data[0].images.downsized.url;
-        img.alt = content.data[0].title;
-        fc.textContent = content.data[0].title;
+      //  img.alt = content.data[0].title;
+        //fc.textContent = content.data[0].title;
         fig.appendChild(img);
-        fig.appendChild(fc);
+        //fig.appendChild(fc);
         let out = document.querySelector(".out");
         out.insertAdjacentElement("afterbegin", fig);
         document.querySelector("#search").value = "";  //make the search box empty again
