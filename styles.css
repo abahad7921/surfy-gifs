@@ -3,8 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* padding-left: 60px; */
-  /* padding-right: 70px; */
+
   box-sizing: border-box;
 }
 
@@ -14,22 +13,11 @@ html {
 }
 
 body {
-  /* font-size: 62.5%;
-  line-height: 1.6; */
   font-family: "Roboto Mono", monospace;
   background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-  /* background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100% */
-  /* ); */
+
   min-height: 100vh;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column; */
+
   color: white;
 }
 
@@ -52,10 +40,10 @@ a:hover {
 .searchBox {
   position: relative;
   display: flex;
-  /* justify-content: center; */
+
   justify-content: end;
   padding: 50px 50px;
-  /* align-items: center; */
+
   align-items: flex-end;
 }
 
@@ -74,10 +62,9 @@ a:hover {
 .searchBtn {
   width: 5rem;
   height: 5rem;
-  /* background-color: #192a56; */
-  /* color: white; */
+
   position: absolute;
-  /* : 10px; */
+
   right: 58px;
   display: grid;
   place-items: center;
@@ -86,12 +73,9 @@ a:hover {
 .searchBox:hover > .searchText {
   width: 40rem;
   padding: 1rem;
-  /* box-shadow: 0 2rem 2rem -1.5rem rgba(0, 0, 0, 0.5); */
 }
 
 .searchBox:hover > .searchBtn {
-  /* background: #fff; */
-  /* color: royalblue; */
 }
 
 img {
@@ -103,55 +87,9 @@ img {
   width: 30%;
 }
 
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #04aa6d;
-} */
-
-/* .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 0;
-} */
-
 .topnav {
   overflow: hidden;
   background: linear-gradient(40deg, #4b6cb7 8%, #182848 60%);
-  /* background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%); */
 }
 
 .topnav h1 {
@@ -163,7 +101,6 @@ li a:hover:not(.active) {
   padding-left: 10px;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -174,19 +111,15 @@ li a:hover:not(.active) {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  /* background-color: #3d23d1; */
   color: black;
 }
 
-/* Style the "active" element to highlight the current page */
 .topnav a.active {
   background-color: #2196f3;
   color: white;
 }
 
-/* Style the search box inside the navigation bar */
 form {
   float: right;
 }
